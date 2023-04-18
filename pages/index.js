@@ -27,7 +27,7 @@ function Index() {
             }
         />
 
-<Accordion
+        <Accordion
         title="2- المحادثات مع الروبوتات"
             content={
               <p>
@@ -36,7 +36,7 @@ function Index() {
             }
         />
 
-<Accordion
+        <Accordion
         title="3- التشخيص الطبي"
             content={
               <p>
@@ -51,6 +51,35 @@ function Index() {
       
     
 
+    </div>
+
+    <div className='head'>
+      <div className='caty'>
+        <h2>ادوات تستعمل الذكاء الاصطناعي</h2>
+        <h3>ChatGPT</h3>
+        <p>تم تطوير ChatGPT باستخدام تقنية التعلم العميق الحديثة المعروفة باسم GPT-3.5 وهو نموذج لغوي كبير يتم تدريبه على مجموعة واسعة من النصوص والبيانات اللغوية. يمكن استخدام ChatGPT لإجراء محادثات ذكية ومتقدمة مع المستخدمين عبر الإنترنت، حيث يستطيع النموذج فهم اللغة الطبيعية والرد على الأسئلة وتقديم المعلومات بشكل سلس وسريع. ويمكن استخدام ChatGPT لأغراض مختلفة مثل الدعم الفني، التفاعل الاجتماعي، المساعدة في المهام اليومية، والمزيد.</p>
+      </div>
+      
+      
+      <div className='caty'>
+        <h3>Poe</h3>
+        <p>تطبيق Poe هو تطبيق تحليل النصوص الذي يستخدم تقنيات التعلم العميق والذكاء الاصطناعي لتحويل النصوص إلى بيانات قابلة للتشغيل. يستخدم التطبيق تحليل اللغوي النصي لفهم النصوص والكشف عن المعاني المخفية والعلاقات بينها. ويستخدم تقنيات التعلم العميق لتحسين دقة التحليل وتوفير نتائج سريعة ودقيقة.</p>
+        <p></p>
+      </div>
+      
+      
+      {/* <div className='card'>
+        <div className='card-img'>
+          <Image src='/images/poe.png' width={200} height={200} alt="poe logo" className='card-img-cu'/>
+
+        </div>
+
+        <div className='card-info'>
+          <h4>Poe</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugit nam aut magni sit, enim eveniet harum maxime ratione quidem quos iste est. Qui maxime ab animi facilis magnam quasi.</p>
+        </div>
+      </div> */}
+    
     </div>
     
     </div>
